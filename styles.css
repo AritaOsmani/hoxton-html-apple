@@ -21,6 +21,7 @@ header{
     background-color:#333333;
     height:2.8125rem;
     padding:1.25rem;
+    
    position: sticky;
    /* width:100%; */
    top:0;
