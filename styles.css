@@ -21,8 +21,9 @@ header{
     background-color:#333333;
     height:2.8125rem;
     padding:1.25rem;
-   position: fixed;
-   width:100%;
+   position: sticky;
+   /* width:100%; */
+   top:0;
     z-index: 10;
 }
 header ul{
@@ -358,11 +359,20 @@ li a:hover{
     display: grid;
     place-items: center;
     position: relative;
+   
 }
 .charlie-img{
     width:100%;
     height:100%;
-   
+    /* position:absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0; */
+    position:fized;
+    overflow: hidden;
+    bottom:0;
+    top:0;
 }
 .tv-logo{
     width:80px;
@@ -656,4 +666,5 @@ footer{
        width: 100vw;
    }
 }
+
 
